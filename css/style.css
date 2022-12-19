@@ -1,0 +1,82 @@
+/* Comments */
+
+html {overflow-y: scroll; overflow-x: hidden;}
+body {font-family: 'Open Sans', sans-serif; background:#b2d8ed;}
+
+header .nav li {display: inline-block;}
+header .nav li a {color: #306d91; text-decoration: none; margin: 32px; letter-spacing: 1px; font-weight: bold;}
+header .nav li a:hover {color: #3d8ab8;}
+
+section.page {padding: 32px 0; background: white;}
+section.page h1 {text-align: center;}
+
+table {border-spacing: 0; text-align: left;border-collapse: collapse;}
+table th {padding-right: 40px;}
+
+form {width: 475px; margin: 34px auto;}
+form table {width: 475px; margin-bottom: 16px;}
+form tr {text-align:left;}
+form th {width: 150px; padding: 8px;}
+form td {padding: 15px 15px;}
+
+form tr.error {
+	background: #fff0f0;
+	border: 4pt solid white;
+}
+form label div.error  {
+    color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+form div.result  {
+    color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    border: 2px solid #aaaaaa;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+	outline: none;
+}
+
+form td select.error,
+form td input.error,
+form td textarea.error {border: 2px solid red;}
+
+form td select:hover,
+form td input:hover,
+form td textarea:hover {border: 2px solid black;}
+
+form td select:focus,
+form td input:focus,
+form td textarea:focus {border: 2px solid black;}
+
+form input[type="submit"] {
+    width: 475px;
+    text-align: center;
+    border: 0;
+    background: #4090c0;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 16px 0 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+form input[type="submit"]:hover {
+	background: #47a0d6;
+	cursor: pointer;
+}
+
+footer {
+	text-align: right;
+	color: #aaaaaa;
+	padding: 10px;
+}
